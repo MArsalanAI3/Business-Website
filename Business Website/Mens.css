@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(100, 100, 100) !important;
+  
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+li{
+    text-decoration: none !important;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+  font-size: 22px  !important;
+  /* margin-right: 20px; */
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: right; */
+  align-items: flex-end;
+}
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.newArrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-top: 5px;
+    
+}
+.card-text{
+    font-weight: bold;
+}
+.footer{
+    width: 100% !important;
+    background-color:black;
+    height: 70px !important;
+}
+.footer > div{
+    text-align: center !important;
+    align-items: center ;
+    
+}
+h4{
+    color: white;
+    margin-top: 10px;
+    /* font-size: 32px; */
+  }
+   
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
